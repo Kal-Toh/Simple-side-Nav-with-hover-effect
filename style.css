@@ -1,0 +1,24 @@
+.nav-container {
+    display: flex;
+    position: sticky;
+    float: right;
+    margin-right: 6rem;
+    line-height: 5rem;
+    list-style: none;
+    border-right: 1px grey solid;
+    padding-right: 1.5rem;
+}
+.nav-container ul, a{
+    list-style: none;
+    text-decoration: none;
+    font-family: menlo;
+    font-size: 0.7rem;
+    color: #CCD6F6;
+}
+.nav-num {
+    color: #6683FC;
+}
+.nav-button:hover{
+    transform: translateX(-10px) scale(1.2);
+    transition: 0.4s;
+}
